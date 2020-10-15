@@ -26,8 +26,11 @@ class _AlQuranState extends State<AlQuran> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.orange,
         appBar: AppBar(
-          title: Text("AlQuran"),
+          title: Text("AlQuran", style: TextStyle(fontSize: 30,fontFamily: 'Montserrat',color: Colors.greenAccent, fontStyle: FontStyle.italic),),
+          centerTitle: true,
+          backgroundColor: Colors.orange,
         ),
         body: detailQuran == null
             ? Center(

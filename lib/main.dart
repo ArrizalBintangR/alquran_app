@@ -1,7 +1,6 @@
 import 'package:alquran_app/WaktuAdzan.dart';
 import 'package:flutter/material.dart';
-// import 'AlQuran.dart';
-import 'Location.dart';
+import 'package:alquran_app/MainMenu.dart';
 
 void main(){
   runApp(MaterialApp(
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "AlQuran XII RPL",
-      home: Home(),
+      home: MainMenu(),
     );
   }
 }

@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
                       width: double.infinity,
                       child: Text(
                         "Waktu Sholat",
-                        style: TextStyle(fontSize: 30,fontFamily: 'Montserrat',color: Colors.greenAccent, fontStyle: FontStyle.italic),
+                        style: TextStyle(fontSize: 30,fontFamily: 'Montserrat',color: Colors.greenAccent, fontStyle: FontStyle.normal),
                       )),
                   SizedBox(height: 30),
                   Container(
